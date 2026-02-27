@@ -57,3 +57,21 @@ jar {
         rename { "${it}_${project.base.archivesName.get()}" }
     }
 }
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifactId = archives_base_name
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url = "https://maven.pkg.github.com/${project.group}/${project.archives_base_name}"
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
+}
