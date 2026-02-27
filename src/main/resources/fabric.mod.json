@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "DG-LAB Minecraft Integration",
   "description": "Send pulse to DG-LAB device when player takes damage in Minecraft",
-  "authors": [],
+  "authors": ["Dremous"],
   "contact": {},
   "license": "MIT",
   "icon": "assets/dglab-minecraft/icon.png",
