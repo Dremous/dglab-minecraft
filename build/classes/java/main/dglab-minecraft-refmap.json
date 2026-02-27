@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/dglab/minecraft/mixin/PlayerEntityMixin": {
+      "damage": "Lnet/minecraft/class_1657;method_5643(Lnet/minecraft/class_1282;F)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/dglab/minecraft/mixin/PlayerEntityMixin": {
+        "damage": "Lnet/minecraft/class_1657;method_5643(Lnet/minecraft/class_1282;F)Z"
+      }
+    }
+  }
+}

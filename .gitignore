@@ -1,0 +1,13 @@
+.gradle
+build/
+bin/
+*.class
+*.jar
+*.zip
+*.war
+*.ear
+!.gradle/wrapper/gradle-wrapper.jar
+.DS_Store
+Thumbs.db
+opencode/
+.opencode/
